@@ -1,0 +1,80 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "FloorOfNumber",
+            "request": "launch",
+            "mainClass": "Searching.Binary_Search.FloorOfNumber",
+            "projectName": "DSA_ac2e246d"
+        },
+        {
+            "type": "java",
+            "name": "code",
+            "request": "launch",
+            "mainClass": "Searching.Binary_Search.code",
+            "projectName": "DSA_ac2e246d"
+        },
+        {
+            "type": "java",
+            "name": "Solution2",
+            "request": "launch",
+            "mainClass": "Solution2",
+            "projectName": "DSA_ac2e246d"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "DSA_ac2e246d"
+        },
+        {
+            "type": "java",
+            "name": "singlylinkedlist",
+            "request": "launch",
+            "mainClass": "LinkedList.singlylinkedlist",
+            "projectName": "DSA_ac2e246d"
+        },
+        {
+            "type": "java",
+            "name": "arraylist",
+            "request": "launch",
+            "mainClass": "kunal_khushwaha.collections.arraylist",
+            "projectName": "DSA_ac2e246d"
+        },
+        {
+            "type": "java",
+            "name": "basicarraylist",
+            "request": "launch",
+            "mainClass": "kunal_khushwaha.methods.basicarraylist",
+            "projectName": "DSA_ac2e246d"
+        },
+        {
+            "name": "C/C++: gcc.exe build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: gcc.exe build active file"
+        }
+    ]
+}
